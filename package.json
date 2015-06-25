@@ -1,0 +1,28 @@
+{
+  "name": "makemehapi-demo",
+  "version": "1.0.0",
+  "description": "Programs from makemehapi workshop",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakshrma/makemehapi-demo.git"
+  },
+  "keywords": [
+    "makemehapi",
+    "nodeschool",
+    "hapi",
+    "nodejs"
+  ],
+  "author": "deepakshrma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakshrma/makemehapi-demo/issues"
+  },
+  "homepage": "https://github.com/deepakshrma/makemehapi-demo#readme",
+  "dependencies": {
+    "hapi": "^8.6.1"
+  }
+}
