@@ -14,10 +14,13 @@ server.route({
      */
     method: 'GET',
     handler: {
-        directory: {path: './public'}
+        directory: {
+            path: './public',
+            listing: true,
+            index:['index.html', 'default.html']
+        }
     }
 });
-
 server.start(function () {
-    console.info('Server is running on: ' + 'http://localhost:' + port);
+    console.info('Server is running on: ' + 'http://'+server.info.host+':' + server.info.port);
 });

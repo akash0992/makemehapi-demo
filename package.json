@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/deepakshrma/makemehapi-demo#readme",
   "dependencies": {
-    "hapi": "^8.6.1"
+    "handlebars": "^3.0.3",
+    "hapi": "^8.6.1",
+    "joi": "^6.5.0",
+    "rot13-transform": "0.0.1"
   }
 }
