@@ -22,5 +22,5 @@ server.route({
     }
 });
 server.start(function () {
-    console.info('Server is running on: ' + 'http://'+server.info.host+':' + server.info.port);
+    console.info('Server is running at: ' + server.info.uri);
 });

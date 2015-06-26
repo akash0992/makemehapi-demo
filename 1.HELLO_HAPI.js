@@ -12,5 +12,5 @@ function handler(request, reply) {
     reply('Hello Hapi');
 }
 server.start(function () {
-    console.info('Server is running on: ' + 'http://localhost:' + port);
+    console.info('Server is running at: ' + server.info.uri);
 });
